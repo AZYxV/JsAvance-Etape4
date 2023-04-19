@@ -1,0 +1,15 @@
+{
+  "name": "npmexercice-etape4",
+  "version": "1.0.0",
+  "description": "exercice etape 4 js avancé",
+  "main": "index.js",
+  "scripts": {
+    "today": "echo nous sommes le $(date +'%d/%m/%Y')",
+    "weather": "node weather.js"
+  },
+  "author": "Nathan Sichouc",
+  "license": "ISC",
+  "dependencies": {
+    "weather-js": "^2.0.0"
+  }
+}
